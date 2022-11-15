@@ -28,22 +28,9 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%{_texmfdistdir}/tex
-%{_texmfdistdir}/tex/context
-%{_texmfdistdir}/tex/context/third
 %{_texmfdistdir}/tex/context/third/fancybreak
-%{_texmfdistdir}/tex/context/third/fancybreak/t-fancybreak.mkvi
-%{_texmfdistdir}/tex/context/third/fancybreak/t-fancybreak.mkii
-%{_texmfdistdir}/tex/context/interface
-%{_texmfdistdir}/tex/context/interface/third
-%{_texmfdistdir}/tex/context/interface/third/t-fancybreak.xml
-%{_texmfdistdir}/doc
-%doc %{_texmfdistdir}/doc/context
-%doc %{_texmfdistdir}/doc/context/third
+%{_texmfdistdir}/tex/context/interface/third/*
 %doc %{_texmfdistdir}/doc/context/third/fancybreak
-%doc %{_texmfdistdir}/doc/context/third/fancybreak/fancybreak-doc.pdf
-%doc %{_texmfdistdir}/doc/context/third/fancybreak/VERSION
-%doc %{_texmfdistdir}/doc/context/third/fancybreak/README
 
 %post -p %{_sbindir}/texlive.post
 
