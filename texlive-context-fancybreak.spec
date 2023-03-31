@@ -1,6 +1,6 @@
 Name:		texlive-context-fancybreak
 Version:	47085
-Release:	1
+Release:	2
 Summary:	Overfull pages with ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-fancybreak
