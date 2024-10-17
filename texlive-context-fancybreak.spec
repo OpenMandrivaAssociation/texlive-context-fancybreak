@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	Overfull pages with ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-fancybreak
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/context-fancybreak
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-fancybreak.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-fancybreak.doc.r%{version}.tar.xz
